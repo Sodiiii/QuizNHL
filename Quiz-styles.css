@@ -340,3 +340,27 @@ footer .next__btn:hover{
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+@media screen and (max-width: 377px) {
+    .info__box {
+        width: auto;
+    }
+    .quiz__box {
+        width: auto;
+    }    
+    .result__box {
+        width: auto;
+    }
+    footer .next__btn{
+        height: 20px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .score__text span p{
+        font-weight: 100;
+    }
+    .result__box .buttons button{
+        font-size: 10px;
+        font-weight: 300;
+    }
+}
